@@ -5,28 +5,18 @@ LangChain 및 관련 기술(LangSmith, LangGraph)을 학습하기 위한 프로�
 ---
 
 ## 프로젝트 구조
+```bash
 LANGCHAIN-STUDY/
-  ├── Langsmith/
-  │   ├── files/
-  │   │   ├── polly_facts.txt        : Polly와 관련된 정보를 담은 텍스트 파일
-  │   │   ├── polly_langchain.ipynb  : LangChain 관련 구현과 분석을 포함한 Jupyter Notebook
-  │   │   └── polly_traceable.ipynb  : LangSmith 및 데이터 추적을 다루는 Jupyter Notebook
-  │   ├── .env                      : 환경 변수 파일
-  │   └── README.md                 : 프로젝트 설명 문서
-  └── requirements.txt              : Python 의존성 패키지 목록
-  
-
-  LANGCHAIN-STUDY:
-  Langsmith:
-    files:
-      - polly_facts.txt: Polly와 관련된 정보를 담은 텍스트 파일
-      - polly_langchain.ipynb: LangChain 관련 구현과 분석을 포함한 Jupyter Notebook
-      - polly_traceable.ipynb: LangSmith 및 데이터 추적을 다루는 Jupyter Notebook
-      - polly_prompt_hub.ipynb: Prompt 관리를 다루는 Jupyter Notebook
-    .env: 환경 변수 파일
-    README.md: 프로젝트 설명 문서
-  requirements.txt: Python 의존성 패키지 목록
-
+├── Langsmith/
+│   ├── files/
+│   │   ├── polly_facts.txt        : Polly와 관련된 정보를 담은 텍스트 파일
+│   │   ├── polly_langchain.ipynb  : LangChain 관련 구현과 분석을 포함한 Jupyter Notebook
+│   │   ├── polly_traceable.ipynb  : LangSmith 및 데이터 추적을 다루는 Jupyter Notebook
+│   │   └── polly_prompt_hub.ipynb : Prompt 관리를 다루는 Jupyter Notebook
+│   ├── .env                      : 환경 변수 파일
+│   └── README.md                 : 프로젝트 설명 문서
+└── requirements.txt              : Python 의존성 패키지 목록
+```
 ---
 
 ## 주요 파일 설명
