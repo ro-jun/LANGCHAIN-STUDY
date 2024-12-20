@@ -12,7 +12,8 @@ LANGCHAIN-STUDY/
 │   │   ├── polly_facts.txt        : Polly와 관련된 정보를 담은 텍스트 파일
 │   │   ├── polly_langchain.ipynb  : LangChain 관련 구현과 분석을 포함한 Jupyter Notebook
 │   │   ├── polly_traceable.ipynb  : LangSmith 및 데이터 추적을 다루는 Jupyter Notebook
-│   │   └── polly_prompt_hub.ipynb : Prompt 관리를 다루는 Jupyter Notebook
+│   │   ├── polly_prompt_hub.ipynb : Prompt 관리를 다루는 Jupyter Notebook
+│   │   └── polly_experiment.ipynb : Polly와 관련된 실험 내용을 담은 Jupyter Notebook
 │   ├── .env                      : 환경 변수 파일
 │   └── README.md                 : 프로젝트 설명 문서
 └── requirements.txt              : Python 의존성 패키지 목록
